@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(scss/resets.scss);
+
+$twitter: #00aced;
+$facebook: #3b5998;
+$youtube: #bb0000;
+
+body {
+  background-color: #0c1b30;
+  background: url(img/bg.png) center bottom no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h2 {
+  color: white;
+}
+ul {
+  text-align: center;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+.btn {
+
+
+  &.twitter {
+    background-color: $twitter;
+
+    &:hover {
+      background-color: $twitter;
+      opacity: 0.8;
+    }
+  }
+  &.youtube {
+    background-color: $youtube;
+
+    &:hover {
+      background-color: $youtube;
+      opacity: 0.8;
+    }
+  }
+  &.facebook {
+    background-color: $facebook;
+
+    &:hover {
+      background-color: $facebook;
+      opacity: 0.8;
+    }
+  }
+
+}
